@@ -2,6 +2,26 @@
 
 A modern, scalable, and maintainable Todo application built with React, TypeScript, and Vite. This application demonstrates best practices in component-driven development, state management, and user authentication.
 
+## 📱 Application Preview
+
+### All Tasks View
+![All Tasks View](./screenshots/all-tasks.png)
+The main dashboard displays all tasks with their status, due dates, and descriptions. Each task card includes:
+- Task title with strike-through for completed tasks
+- Task description
+- Due date
+- Completion status indicator
+- Beautiful illustrations for better visual feedback
+
+### Task Management
+![Add New Task](./screenshots/add-task.png)
+The "Add New Task" modal provides a clean, user-friendly interface for creating new tasks with:
+- Task title input
+- Detailed description field
+- Due date picker
+- Intuitive "Continue" button
+- Clear form layout for better user experience
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -39,13 +59,25 @@ The application will be available at `http://localhost:5173`
 
 ## 🎯 Features
 
-- User authentication using Clerk
-- Create, read, update, and delete todos
-- Mark todos as complete/incomplete
-- Filter todos by status
-- Responsive design with Tailwind CSS
-- Dark/Light mode support
-- Modern UI components using Radix UI
+- **Task Management**
+  - Create, read, update, and delete todos
+  - Mark todos as complete/incomplete (with visual strike-through effect)
+  - Due date tracking with clear visual indicators
+  - Task categorization and organization
+
+- **User Interface**
+  - Clean and modern design
+  - Responsive layout that works on all devices
+  - Intuitive task creation modal
+  - Visual feedback for task status
+  - Custom illustrations for better user experience
+
+- **Additional Features**
+  - User authentication using Clerk
+  - Filter todos by status
+  - Responsive design with Tailwind CSS
+  - Dark/Light mode support
+  - Modern UI components using Radix UI
 
 ## 🏗️ Project Structure
 
