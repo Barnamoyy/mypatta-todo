@@ -5,7 +5,7 @@ A modern, scalable, and maintainable Todo application built with React, TypeScri
 ## 📱 Application Preview
 
 ### All Tasks View
-![All Tasks View](./screenshots/all-tasks.png)
+![All Tasks View](./src/assets/screenshots/screenshot1.png)
 The main dashboard displays all tasks with their status, due dates, and descriptions. Each task card includes:
 - Task title with strike-through for completed tasks
 - Task description
@@ -14,7 +14,7 @@ The main dashboard displays all tasks with their status, due dates, and descript
 - Beautiful illustrations for better visual feedback
 
 ### Task Management
-![Add New Task](./screenshots/add-task.png)
+![Add New Task](./src/assets/screenshots/screenshot2.png)
 The "Add New Task" modal provides a clean, user-friendly interface for creating new tasks with:
 - Task title input
 - Detailed description field
